@@ -17,4 +17,5 @@ spec:
       containers:
       - image: gowri5877/k8sexamimag
         name: k8sexamimag
-        
+        ports:
+        - containerPort: 8080
